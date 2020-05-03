@@ -1,29 +1,3 @@
-body {
-  background-color: #04A6EB;
-  color: #FDFFFF;
-  width: 500px;
-  margin-right: auto;
-  margin-left : auto;
-}
-button {
-  padding: 5px 20px;
-  background-color: #337AB7;
-  color: #FDFFFF;
-  border-color: #2E6DA4;
-  border-style: none;
-}
-input {
-  height: 20px;
-}
-入力できたら、ページ下方にある「 Commit new file 」というボタンを押してコミットしましょう。
-
-同じことの繰り返しですが、assessment.js も追加しましょう。
-
-ページの中ほどにある「 Create new file 」と書かれているボタンをクリックしましょう。
-
-「 Name your file... 」と書かれている部分に assessment.js と記入し、 「 Edit new file 」と書かれた内容の部分に、以前作成した assessment.js の内容をコピーしてきて、貼り付けます。
-
-assessment.js
 'use strict';
 const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
