@@ -43,6 +43,7 @@ assessmentButton.onclick = () => {
   anchor.innerText = 'Tweet #あなたのいいところ';
   tweetDivided.appendChild(anchor);
 
+  
   // widgets.js の設定
   const script = document.createElement('script');
   script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
